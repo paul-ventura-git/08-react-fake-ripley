@@ -1,12 +1,15 @@
 import React from 'react'
 import R003Tabs from '../components/R003Tabs'
+import R004Carousel from '../components/R004Carousel'
 
 function Home() {
   return (
-    <div>
-      Home
+    <>
       <R003Tabs></R003Tabs>
-    </div>
+      <div className='container'>
+        <R004Carousel></R004Carousel>
+      </div>      
+    </>
   )
 }
 
